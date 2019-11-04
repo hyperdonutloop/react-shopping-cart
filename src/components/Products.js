@@ -22,3 +22,11 @@ const Products = () => {
 };
 
 export default Products;
+
+// Step #4 ✅ - ProductContext is now providing data so now we can consume it. 
+/* 
+1. imported useContext and ProductContext
+2. when we import 'useContext' is returning value passed by 'ProductContext.Provider' value prop. 
+3. Refactor Products component by removing every instance of props.
+4. Products component is getting data solely from Context API 
+*/
