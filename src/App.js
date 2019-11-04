@@ -12,7 +12,9 @@ function App() {
 	const [cart, setCart] = useState([]);
 
 	const addItem = item => {
-		// add the given item to the cart
+		// add the given item to the cart - Step 1: Add item functionality ✅
+		//when addItem is passed a new item object, the cart state is updated so it includes the previous state (the items, if any, in the cart) and the new item.
+		setCart( [...cart, item] );
 	};
 
 	return (
