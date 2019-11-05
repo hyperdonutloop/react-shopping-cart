@@ -4,8 +4,10 @@ import data from './data';
 import Navigation from './components/Navigation';
 import Products from './components/Products';
 import ShoppingCart from './components/ShoppingCart';
-import { ProductContext } from './Contexts/ProductContext';
-import { CartContext } from './Contexts/CartContext';
+import ProductContext from './Contexts/ProductContext';
+import CartContext from './Contexts/CartContext';
+
+
 
 // Components
 
